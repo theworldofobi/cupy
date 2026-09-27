@@ -41,8 +41,8 @@ def get_array_module(*args):
 
 # support lazy importing from cupyx.scipy
 
-_submodules = ['fft', 'fftpack', 'interpolate', 'linalg', 'ndimage', 'signal',
-               'sparse', 'spatial', 'special', 'stats']
+_submodules = ['fft', 'fftpack', 'interpolate', 'io', 'linalg', 'ndimage',
+               'signal', 'sparse', 'spatial', 'special', 'stats']
 
 
 def __getattr__(name):
